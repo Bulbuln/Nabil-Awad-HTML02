@@ -32,15 +32,82 @@ body {
 
 
 @media (max-width: 576px) {
+  body {
+    padding: 15px;
+  }
+  .box-2 {
+ display:none ;
+  }
+  .box-1 {
+    display: none;
+  }
 
 }
 
 @media (max-width: 768px) {
-
+.box-5 {
+  color: white;
+}
+.box-3 {
+  border-color: green;
+}
 }
 
 @media (max-width: 992px) {
+ .box-4 {
+   display: none;
+   color: red;
+ }
+ .box-3 {
+   display: none;
+ }
+ .box-2 {
+   border: white;
+   color: white;
+ }
+}
+
+@media ( max-width:1200px) {
+ .box-5 {
+   display: none;
+ }
 
 }
 
+@media ( min-width:600px) and (max-width:1200px){
+  .nabil {
+    display: block;
+    
+  }
 
+}
+@media (min-width:650px) and (max-width:1000px) {
+
+.awad {
+  display: block;
+}  
+}
+
+@media (min-width: 576px) {
+  .ahmed {
+    display: block;
+  }
+  
+
+
+}
+
+@media (min-width: 1000px)  {
+
+  .ahmed {
+    color: red;
+  }
+
+}
+
+@media (min-width: 1200px)  {
+
+  .ahmed{
+   display: none;
+  }
+}
