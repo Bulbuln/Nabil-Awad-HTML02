@@ -1,0 +1,51 @@
+$link-color : red ;
+$link-visited: purple;
+$ol-link-color:magenta;
+$ol-link-active:pink;
+$ol-link-visited:lightcoral;
+
+
+
+
+ul {
+
+
+    a {
+        text-decoration: none;
+    }
+    & :hover {
+        color: $link-color;
+    }
+    &:visited {
+
+        color:$link-visited;
+    }
+
+}
+.para {
+    padding : {
+        top: 10px;
+        bottom: 1px;
+        left: 20px;
+        right: 20px;
+    }
+}
+
+.para-short {
+    width: 50%;
+    margin: 0 auto;
+}
+
+ol {
+    :hover {
+        color: $ol-link-color;
+    }
+    :active {
+        color: $ol-link-active;
+
+    }
+    :visited{
+        color: $ol-link-visited;
+    }
+
+}
