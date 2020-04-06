@@ -1,0 +1,30 @@
+@mixin mq { 
+    @media(max-width:500px) {
+        display: none;
+    }
+    
+}
+
+.box-2 {
+    
+    @include mq() 
+}
+
+@mixin mq2 {
+    @media(min-width:501px) {
+        background-color: green;
+        transition: all 5s linear;
+        
+        
+}
+
+}
+
+.box-1{
+   
+    @include mq2(); 
+    
+ 
+    
+}
+

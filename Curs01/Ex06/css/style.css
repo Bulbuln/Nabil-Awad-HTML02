@@ -55,8 +55,6 @@
   border: 3px solid red;
   background-color: purple;
   background-color: red;
-  border: 5px solid;
-  border-color: blue;
 }
 
 .circle-green {
@@ -83,6 +81,11 @@
   border: 3px solid red;
   background-color: purple;
   background-color: blue;
+}
+
+.circle-border-blue {
+  border: 8px solid;
+  border-color: blue;
 }
 
 /*# sourceMappingURL=style.css.map */

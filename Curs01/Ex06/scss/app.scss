@@ -76,7 +76,7 @@
 .circle-red {
     @include circle();
     @include circle-cl(red);
-    @include circle-border(5px, blue)
+    
     
 }
 .circle-green {
@@ -87,12 +87,10 @@
 }
 .circle-blue {
     @include circle();
-    @include circle-cl(blue)
-    
+    @include circle-cl(blue);
 }
 
-
-
-
-
-
+.circle-border-blue {
+    
+    @include circle-border (8px ,blue);
+}
