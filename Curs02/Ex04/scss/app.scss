@@ -13,3 +13,5 @@
 @include btn-class('.btn-inverted', 'background',transparent);
 
 @include btn-class('.btn-inverted-light', 'background',lightgray);
+
+@include btn-class('.btn-text-gray', 'color',gray);
