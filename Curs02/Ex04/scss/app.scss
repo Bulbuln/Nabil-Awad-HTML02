@@ -14,4 +14,6 @@
 
 @include btn-class('.btn-inverted-light', 'background',lightgray);
 
+@include btn-class('.btn-tertiary', 'color', green);
+
 @include btn-class('.btn-text-gray', 'color',gray);
