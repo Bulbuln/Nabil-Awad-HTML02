@@ -10,13 +10,19 @@
   border: 1px solid #000;
 }
 $borders :dotted , dashed , solid ,double , none ;
+
+$margins : ("xs": 4px, "sm": 8px, "md": 16px, "lg": 32px );
+
+$paddings : ("xs": 4px, "sm": 8px, "md": 16px, "lg": 32px );
+
+
 @each $border in $borders {
 
   .b-#{$border} {
     border-style: $border;
   }
 }
-$margins : ("xs": 4px, "sm": 8px, "md": 16px, "lg": 32px );
+
 
 @each $key,$value in $margins {
   .m-#{$key}{
@@ -24,7 +30,6 @@ $margins : ("xs": 4px, "sm": 8px, "md": 16px, "lg": 32px );
   }
 }
 
-$paddings : ("xs": 4px, "sm": 8px, "md": 16px, "lg": 32px );
 
 @each $key,$value in $paddings { 
 

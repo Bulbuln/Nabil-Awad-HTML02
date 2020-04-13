@@ -23,7 +23,7 @@
 @for $i from 1 through 10 {
 @if $i % 2 == 0{ 
 
-  .box-0#{$i} {
+  .nbox-0#{$i} {
 
     background-color: gray;
   } 
@@ -31,7 +31,7 @@
 } @else {
   
 
-    .box-0#{$i} {
+    .nbox-0#{$i} {
       border: dotted;
     }
 }
