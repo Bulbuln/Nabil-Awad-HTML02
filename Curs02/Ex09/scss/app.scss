@@ -15,7 +15,6 @@ $colors : (
 @each $colorname,$colorvalue in $colors {
   .btn-#{$colorname} {
     color: $colorvalue;
-
   }
 }
 

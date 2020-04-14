@@ -46,10 +46,6 @@
   border-width: 9px;
 }
 
-.box-010 {
-  border-width: 10px;
-}
-
 .nbox-01 {
   border: dotted;
 }
@@ -84,10 +80,6 @@
 
 .nbox-09 {
   border: dotted;
-}
-
-.nbox-010 {
-  background-color: gray;
 }
 
 /*# sourceMappingURL=style.css.map */
