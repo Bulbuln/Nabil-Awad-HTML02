@@ -1,0 +1,45 @@
+.footer-top {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    
+    margin-top: 35px;
+    .footer-contact {
+        display: none;
+    }
+    .social {
+        display: none;
+    }
+    
+    .footer-customer-info {
+        border-left: 1px solid #FFFFFF;
+        height: 139px;
+        li {
+            list-style: none;
+            padding-bottom: 10px;
+        }
+        a {
+            text-decoration: none;
+            font-family:  'Segoe UI', 'Roboto';
+            font-size: 16px;
+            text-transform: lowercase;
+            color: #FFFFFF;
+        }
+    }
+    .about {
+        height: 139px;
+        margin-right: 40px;
+        li {
+            list-style: none;
+            padding-bottom: 10px;
+        }
+        a {
+            text-decoration: none;
+            font-family:  'Segoe UI', 'Roboto';
+            font-size: 16px;
+            text-transform: lowercase;
+            color: #FFFFFF;
+        }
+
+    }
+}

@@ -1,0 +1,55 @@
+.header-bottom {
+    background: #2B2B2B 0% 0% no-repeat padding-box;
+    height: 50px;
+    .nav-main {
+        display: flex;
+        justify-content: center;
+        ul {
+            display: none;
+        }
+        .fa-bars {
+            font-size: 36px;
+            color: #ffffff;
+            top: 10px;
+            position: relative;
+        }
+        .fa-search {
+            position: relative;
+            top: 8px;
+            right:-11px;
+            color: #fff;
+            font-size: 14px;
+            font-weight: 600;
+            opacity: 0.72;
+
+        }
+        input {
+            position: relative;
+            top: 10px;
+            left: 50px;
+            color: #FFFFFF;
+            background-color: #2B2B2B;
+            width: 227px;
+            height: 30px;
+            border: 0.20000000298023224px solid #FFFFFF;
+        }
+        ::placeholder {
+            font-size: 10px;
+            font-style: italic;
+            font-family: 'Roboto', serif;
+            position: relative;
+            top: -2px;
+            left: 5px;
+            color: #fff;
+            opacity: 0.58;
+        }
+
+            
+          
+
+    }
+    
+    
+    
+   
+}
