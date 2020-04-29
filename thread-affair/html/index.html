@@ -30,7 +30,7 @@
         <div class="user-controls">
           <img src="/img/user-avatar.png" alt="User Avatar">
           <i class="fas fa-chevron-down"></i>
-          <i class="fas fa-bars"></i>
+          <label class="fas fa-bars" for="hack-menu"></label>
         </div>
         <!-- .user-controls  -->
 
@@ -49,15 +49,21 @@
 
     <div class="header-bottom">
       <div class="nav-container">
-        <nav class="nav-main">
-          <ul>
-            <li><a href="" title="Home">Home</a></li>
-            <li><a href="" title="Costume">Costume</a></li>
-            <li><a href="" title="Camasi">Camasi</a></li>
-            <li><a href="" title="Accesorii">Accesorii</a></li>
-          </ul>
-        </nav>
-        <!-- .nav-main  -->
+        <form>
+          <input type="checkbox"
+            class="hack-menu"
+            id="hack-menu"
+          >
+          <nav class="nav-main">
+            <ul>
+              <li><a href="" title="Home">Home</a></li>
+              <li><a href="" title="Costume">Costume</a></li>
+              <li><a href="" title="Camasi">Camasi</a></li>
+              <li><a href="" title="Accesorii">Accesorii</a></li>
+            </ul>
+          </nav>
+          <!-- .nav-main  -->
+        </form>
 
         <nav class="nav-secondary">
 
@@ -72,23 +78,25 @@
 
   <main class="content">
     <header class="banner-main">
-      <div>
+      <div class="cont banner-content">
         <h1>Custom Suits</h1>
         <h2>Get back to work in style</h2>
 
-        <a href="" class="banner-cta">Create your suit</a>
+        <a href="" class="btn btn-main btn-lg">Create your suit</a>
 
-        <p>A Tailored Suit that will fit you perfectly is a dream for everybody.</p>
-        <p>
-          We provide you with the design and you choose if you like it or if
-          you want to change the details with our online configurator.
-        </p>
+        <div>
+          <p>A Tailored Suit that will fit you perfectly is a dream for everybody.</p>
+          <p>
+            We provide you with the design and you choose if you like it or if
+            you want to change the details with our online configurator.
+          </p>
+        </div>
       </div>
     </header>
     <!-- .banner-main  -->
 
     <main class="content-main">
-      <section class="catalog-preview">
+      <section class="catalog-preview cont">
         <h1>All Time <span>BESTSELLERS</span></h1>
 
         <p>
@@ -125,7 +133,7 @@
             </div>
 
             <div class="product-actions">
-              <a href="" class="cta-a2c" title="Add to cart">Add to cart</a>
+              <a href="" class="btn btn-main" title="Add to cart">Add to cart</a>
             </div>
           </article>
           <!-- .product-tile  -->
@@ -133,7 +141,7 @@
           <article class="product-tile">
             <a href="" class="product-image-container" title="Thread Affair Traveller Suit">
               <img src="/img/products/product-02a.jpg" alt="">
-              <span class="product-badge">%</span>
+              <span class="product-badge multi-line">new entry</span>
             </a>
 
             <a href=""
@@ -152,7 +160,7 @@
             </div>
 
             <div class="product-actions">
-              <a href="" class="cta-a2c" title="Add to cart">Add to cart</a>
+              <a href="" class="btn btn-main" title="Add to cart">Add to cart</a>
             </div>
           </article>
           <!-- .product-tile  -->
@@ -160,7 +168,7 @@
           <article class="product-tile">
             <a href="" class="product-image-container" title="Thread Affair Traveller Suit">
               <img src="/img/products/product-03a.jpg" alt="">
-              <span class="product-badge">%</span>
+              <span class="product-badge multi-line">new entry</span>
             </a>
 
             <a href=""
@@ -179,7 +187,7 @@
             </div>
 
             <div class="product-actions">
-              <a href="" class="cta-a2c" title="Add to cart">Add to cart</a>
+              <a href="" class="btn btn-main" title="Add to cart">Add to cart</a>
             </div>
           </article>
           <!-- .product-tile  -->
@@ -188,7 +196,7 @@
       </section>
       <!-- .catalog-preview  -->
 
-      <section class="catalog-preview">
+      <section class="catalog-preview cont">
         <h1>New <span>COLLECTION</span></h1>
         <p>
           Accomplish new achievements with a bold new style from the brilliant collection of men’s designer suits.
@@ -222,7 +230,7 @@
             </div>
 
             <div class="product-actions">
-              <a href="" class="cta-a2c" title="Add to cart">Add to cart</a>
+              <a href="" class="btn btn-main" title="Add to cart">Add to cart</a>
             </div>
           </article>
           <!-- .product-tile  -->
@@ -249,7 +257,7 @@
             </div>
 
             <div class="product-actions">
-              <a href="" class="cta-a2c" title="Add to cart">Add to cart</a>
+              <a href="" class="btn btn-main" title="Add to cart">Add to cart</a>
             </div>
           </article>
           <!-- .product-tile  -->
@@ -257,7 +265,7 @@
           <article class="product-tile">
             <a href="" class="product-image-container" title="Thread Affair Traveller Suit">
               <img src="/img/products/product-06a.jpg" alt="">
-              <span class="product-badge">%</span>
+              <span class="product-badge blue">signed</span>
             </a>
 
             <a href=""
@@ -276,7 +284,7 @@
             </div>
 
             <div class="product-actions">
-              <a href="" class="cta-a2c" title="Add to cart">Add to cart</a>
+              <a href="" class="btn btn-main" title="Add to cart">Add to cart</a>
             </div>
           </article>
           <!-- .product-tile  -->
@@ -285,9 +293,22 @@
       </section>
       <!-- .catalog-preview  -->
 
+
+      <section class="home-cta-banner">
+        <a href="" class="cont">
+          <span class="cta-line-1">WANT TO BUY <br> A GIFT FOR SOMEONE?</span>
+          <span class="cta-line-2">press here for <span> free guidence</span></span>
+
+        </a>
+
+
+
+      </section>
+
+
       <section class="home-social">
         <h1>We are <span>social</span>!</h1>
-        <ul>
+        <ul class="social-icons">
           <li><a href="" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
           <li><a href="" target="_blank"><i class="fab fa-instagram"></i></a></li>
           <li><a href="" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
@@ -408,5 +429,7 @@
     <!-- .footer-bottom  -->
   </footer>
   <!-- .footer  -->
+
+  <script src="/js/app.min.js"></script>
 </body>
 </html>

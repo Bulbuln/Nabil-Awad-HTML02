@@ -1,12 +1,15 @@
 .header-bottom {
-    background: #2B2B2B 0% 0% no-repeat padding-box;
-    height: 50px;
+    
+    
     .nav-main {
         display: flex;
         justify-content: center;
+        background: #2B2B2B 0% 0% no-repeat padding-box;
+
         ul {
             display: none;
         }
+
         .fa-bars {
             font-size: 36px;
             color: #ffffff;
@@ -23,6 +26,7 @@
             opacity: 0.72;
 
         }
+
         input {
             position: relative;
             top: 10px;
@@ -32,21 +36,42 @@
             width: 227px;
             height: 30px;
             border: 0.20000000298023224px solid #FFFFFF;
+
+            &::placeholder {
+                font-size: 10px;
+                font-style: italic;
+                font-family: 'Roboto', serif;
+                position: relative;
+                top: -2px;
+                left: 5px;
+                color: #fff;
+                opacity: 0.58;
+            }
         }
-        ::placeholder {
-            font-size: 10px;
-            font-style: italic;
-            font-family: 'Roboto', serif;
+
+        
+    }
+
+    .header-background {
+        height: 177px;
+        width: 100%;
+        background-image: url(/img/mob-background.png)  ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: right;
+        margin: 0;
+
+        button {
             position: relative;
-            top: -2px;
-            left: 5px;
-            color: #fff;
-            opacity: 0.58;
-        }
-
+            top: 124px;
+            right: 35px;
+            width: 69px;
+            height: 21px;
+            font-size: 10px;
+            font-family: 'Roboto';
+            font-weight: normal;
             
-          
-
+        }
     }
     
     

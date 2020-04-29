@@ -1,4 +1,5 @@
 .header-top {
+    width: 100%;
     .shipping-price {
         text-align: center;
         justify-content: space-between;
@@ -8,15 +9,18 @@
         font-family: 'Roboto', sans-serif;
         font-weight: 400px;
     }
+
     .fa-plane {
         color: #5E5A5A;
         margin-top: 13px;
 
     }
+
     .fa-angle-left {
         margin-left: 18px;
         margin-top: 13px;
     }
+
     .fa-angle-right {
         margin-right: 18px;
         margin-top: 13px;
@@ -26,10 +30,13 @@
     .header-contact {
         display: none;
     }
+
     .site-search {
         display: none;
     }
+
     .user-controls {
+        width: 100%;
         display: flex;
         justify-content: space-between;
         height: 60px;
@@ -39,21 +46,33 @@
             right: 37px;
             top: 19px;
         }
+        
         h1 {
             padding-bottom: 5px;
             padding-left: 10px;
         }
+
         li {
             display: inline-block;
             padding-left: 24px;
             
         }
+
         a {
             text-decoration: none;
             color: #000;
             font-size:19px;
         }
     
+    }
+    .user-controls {
+        ul {
+            margin-right: 36px;
+            li {
+                color: black;
+            }
+        }
+
     }
 
     

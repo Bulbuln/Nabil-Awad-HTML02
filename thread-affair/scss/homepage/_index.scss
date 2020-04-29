@@ -1,0 +1,11 @@
+@import './banner-main';
+@import './catalog-preview';
+@import './home-cta-banner';
+@import './home-social';
+
+h1 {
+    font-weight: 300;
+    span {
+        font-weight: 500;
+    }
+}
