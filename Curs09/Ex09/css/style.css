@@ -59,21 +59,21 @@ body {
 
 .flex-container-01 {
   flex-direction: column-reverse;
-  justify-content: flex-end;
   align-items: flex-end;
+  justify-content: flex-end;
 }
 
-.flex-container-01 :nth-child(2) {
+.flex-container-01 :nth-of-type(2) {
   flex-shrink: 2;
 }
 
 .flex-container-02 {
   flex-direction: column;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
 }
 
-.flex-container-02 :nth-child(2) {
+.flex-container-02 :nth-of-type(2) {
   flex-shrink: 2;
 }
 
@@ -86,6 +86,41 @@ body {
   justify-content: space-around;
 }
 
-.flex-container-03 .flex-item-02 {
+.flex-container-03 :nth-child(3) {
   flex-shrink: 2;
 }
+
+.flex-container-04 {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-container-04 :nth-of-type(3) {
+  flex-shrink: 3;
+}
+
+.flex-container-04 :nth-of-type(4) {
+  flex-shrink: 2;
+}
+
+.flex-container-05 {
+  flex-direction: column-reverse;
+  align-items: flex-end;
+  justify-content: space-around;
+}
+
+.flex-container-05 :nth-child(4) {
+  flex-shrink: 2;
+}
+
+.flex-container-06 {
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flex-container-06 :nth-child(5) {
+  flex-shrink: 2;
+}
+
