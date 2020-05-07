@@ -2,7 +2,7 @@
     width: 100%;
     .shipping-price {
         text-align: center;
-        justify-content: space-between;
+        justify-content: center;
         width: 100%;
         display: flex;
         font-size: 14px;
@@ -10,22 +10,17 @@
         font-weight: 400px;
     }
 
-    .fa-plane {
+    p {
+        padding-top: 10px;
+        font-size: 14px;
+        font-family: 'Roboto';
         color: #5E5A5A;
-        margin-top: 13px;
-
+        padding-left: 4px;
+    
     }
 
-    .fa-angle-left {
-        margin-left: 18px;
-        margin-top: 13px;
-    }
 
-    .fa-angle-right {
-        margin-right: 18px;
-        margin-top: 13px;
-
-    }
+   
     
     .header-contact {
         display: none;
@@ -44,15 +39,15 @@
         ul {
             position: relative;
             
-            top: 19px;
+            top: 16px;
         }
         
         h1 {
-            padding-bottom: 5px;
-            padding-left: 10px;
+           
             font-family: 'Baskerville Old Face BQ'  ;
             font-weight: 500;
             font-style: normal;
+            
         }
 
         li {
@@ -65,6 +60,8 @@
             text-decoration: none;
             color: #000;
             font-size:19px;
+            padding-top: 16px;
+            padding-left: 18px;
         }
     
     }
