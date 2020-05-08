@@ -3,7 +3,7 @@
     
     .nav-main {
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         background: #2B2B2B 0% 0% no-repeat padding-box;
 
         ul {
@@ -13,25 +13,28 @@
         p {
             font-size: 36px;
             color: #ffffff;
-            top: 10px;
+            margin-left: 34px;
+            margin-top: 10px;
+            margin-bottom: 10px;
             
-            position: relative;
+
+
         }
+        form {
+            margin-right: 34px;
+        }
+        
         .fa-search {
             position: relative;
-            top: 21px;
-            right: -17px;
-            color: #fff;
-            font-size: 14px;
-            font-weight: 600;
-            opacity: 0.72;
-
+            top: -11px;
+            right: 10px;
+            color: white;
         }
-
         input {
             position: relative;
-            top: 23px;
-            left: 50px;
+            right: -21px;
+            margin-top: 33px;
+            bottom: 10px;
             color: #FFFFFF;
             background-color: #2B2B2B;
             width: 227px;
