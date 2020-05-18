@@ -197,3 +197,12 @@
     font-weight: 900;
     font-style: normal;
 }
+
+@font-face {
+    font-family: 'Baskerville Old Face BQ';
+    src: url('/fonts/BaskervilleOldfaceBQ.woff2') format('woff2'),
+        url('/fonts/BaskervilleOldfaceBQ.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+

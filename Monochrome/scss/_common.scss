@@ -1,7 +1,8 @@
 .cont {
-  width: 100%;  // for mobiles
+  width: 100%;
   max-width: $container-width;
-  margin: 0 auto;  // centered
+  margin: 0 auto;
+  display: block;
+
+  
 }
-
-

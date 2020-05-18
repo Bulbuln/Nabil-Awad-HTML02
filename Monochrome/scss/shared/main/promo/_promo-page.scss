@@ -2,10 +2,32 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 36px;
+    @include media-breakpoint-up('md') {
+        flex-direction: row;
+        margin-top: 120px;
+        margin-bottom: 135px;
+    }
         
+    .promo-image {
+        left: 34px;
+        width: 306px;
+
+        @include media-breakpoint-up('md') {
+            width: 666px;
+            height: 666px;
+            background-image: url(/img/banner-secondary.png);
+            background-size: cover;
+        }
+    }
 
     .promo-text {
         width: 305px;
+        @include media-breakpoint-up('md') {
+            margin-top: 0;
+            margin-left: 139px;
+            width: auto;
+        }
 
         h1 {
             text-align: left;
@@ -14,11 +36,16 @@
             letter-spacing: 0.27px;
             color: #2B2B2B;
             margin-top: 26px;
+            font-size: 18px;
+            @include media-breakpoint-up('md') {
+                letter-spacing: 0.66px;
+                margin-top: 0;
+                font-size: 44px;
+
+            }
         }
-        .desktop-p {
-            display: none;
-        }
-        p:last-child {
+        
+        p {
             
             text-align: left;
             font-family: 'Roboto';
@@ -28,9 +55,22 @@
             color: #2B2B2B;
             font-size: 16px;
             margin-top: 10px;
+            @include media-breakpoint-up('md') {
+                letter-spacing: 0.33px;
+                margin-top: 40px;
+                font-size: 22px;
+                line-height: 180%;
+                
+            }
             
         }
+        .second-p {
+            @include media-breakpoint-up('md') {
+                margin-top: 68px;
+            }
+        }
 
+       
     }
     
 

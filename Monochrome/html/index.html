@@ -11,8 +11,10 @@
 </head>
 <body >
   <header class="header">
-    <div class="banner-main">
-      <div class="header-top  ">
+
+    <div class=" banner-main ">
+      <div class="header-top">
+      
 
         <div class="shipping-price">
           
@@ -22,26 +24,28 @@
 
         </div>
         <!-- .delivary-price -->
-        <div class="header-contact">
+        <div class="header-contact ">
           
           <ul>
            <li><a href="youtube.com" title="Youtube"><i class="fab fa-youtube"></i></a></li>
            <li><a href="twitter.com" title="twitter"><i class="fab fa-twitter"></i></a></li>
             <li><a href="facebook.com" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
             <li><a href="instagram.com"><i class="fab fa-instagram"></i></a></li>
-            <li><a href="tel:+44 (0)10 2345 6789 ">CALL US +44 (0)10 2345 6789 </a></li>
+            
           </ul> 
+          <p><a href="tel:+44 (0)10 2345 6789 " class="header-call-us">CALL US +44 (0)10 2345 6789 </a></p>
 
         </div>
         <!-- .header-contact -->
         <div class="header-controls">
           <form action="" class="header-search">
             <input type="text" class="site-search" placeholder="search">
+            <i class="fas fa-search"></i>
           </form>
           <!-- .header-search -->
           <div class="user-controls">
-            <h1><a href="">MONOCHROME</a></h1>
-            <ul>
+            <h1 class="logo"><a href="">MONOCHROME</a></h1>
+            <ul >
               <li><i class="far fa-user"></i></li>
               <li><i class="far fa-heart"></i></li>
               <li><i class="fas fa-shopping-bag"></i></li>
@@ -52,23 +56,27 @@
         </div>
         <!-- .header-controls -->
 
+      
       </div>
-      <!-- .header-top -->
+      <!-- header-top -->
+
     </div>
-    <!-- banner-main -->
+    <!-- banner-main  -->
+
+  
 
     <div class="header-bottom ">
 
        <nav class="nav-main">
          <p><i class="fas fa-bars"></i></p>
-          <form action="">
+          <form action="" class="mobile-form">
           <input type="text" class="mobile-search" placeholder="search ">
           <i class="fas fa-search"></i>
           </form>
           
               
         
-          <ul>
+          <ul >
            <li><a href="" title="new arrivals">new arrivals</a></li>
             <li><a href="" title="brands">brands</a></li>
             <li><a href="" title="men's">men's</a></li>
@@ -78,7 +86,7 @@
           </ul>
         </nav>
         <!-- .nav-main  -->
-        <div class="mob header-background">
+        <div class="mobheader-background">
           <button>NEW IN</button>
         </div>
     
@@ -87,17 +95,28 @@
     <!-- .header-bottom -->
 
 
-
   </header>
   <!-- .header -->
   <main class="content">
     <main class="content-main">
-      
-      <section class="catalog-preview ">
-        <h1>New Stuff</h1>
-  
 
-          <article class="product-tile">
+      <hr style="width: 300px;
+        margin-top: 26px;
+        color: #CCCCCC;
+        margin-top: 27px;"
+        class=" d-lg-none"
+      >
+      <hr style="width: 1356px;
+        margin-top: 0;
+        color: #CCCCCC;
+        margin-top: 27px;"
+        class=" d-none d-lg-block"
+      >
+      <h1 class="h1-mob d-lg-none">Spring Collection</h1>
+      <h1 class=" d-none d-md-block">New Stuff</h1>
+      <section class="catalog-preview ">
+
+          <article class="product-tile ">
 
             <a href="" class="product-image-container"
               title="Monochrome Watch">
@@ -116,7 +135,7 @@
             >$425</a>
           </article>
           <!-- .product-tile  -->
-          <article class="product-tile">
+          <article class="product-tile ">
 
             <a href="" class="product-image-container"
               title="Monochrome Watch">
@@ -135,7 +154,7 @@
             >$425</a>
           </article>
           <!-- .product-tile  -->
-          <article class="product-tile">
+          <article class="product-tile  d-none d-lg-flex">
 
             <a href="" class="product-image-container"
               title="Monochrome Watch">
@@ -154,7 +173,7 @@
             >$425</a>
           </article>
           <!-- .product-tile  -->
-          <article class="product-tile">
+          <article class="product-tile d-none d-lg-flex">
 
             <a href="" class="product-image-container"
               title="Monochrome Watch">
@@ -177,10 +196,24 @@
        
       </section>
       <!-- .catalog-preview  -->
-    
+      <hr style="width: 300px;
+        margin-top: 26px;
+        color: #CCCCCC;
+        margin-top: 27px;"
+        class=" d-lg-none"
+      >
+      <hr style="width: 1356px;
+        margin-top: 26px;
+        color: #CCCCCC;
+        margin-top: 27px;"
+        class=" d-none d-lg-block"
+      >
+      <h1 class="h1-mob d-lg-none">Best reviewed</h1>
+      <h1 class="d-none d-lg-block">Most loved</h1>
+
       <section class="catalog-preview">
-        <h1>Most loved</h1>
-          <article class="product-tile">
+        
+          <article class="product-tile d-none d-lg-flex">
 
             <a href="" class="product-image-container"
               title="Monochrome Watch">
@@ -199,7 +232,7 @@
              >$425</a>
           </article>
           <!-- .product-tile  -->
-          <article class="product-tile">
+          <article class="product-tile ">
 
             <a href="" class="product-image-container"
               title="Monochrome Watch">
@@ -218,7 +251,25 @@
             >$425</a>
           </article>
           <!-- .product-tile  -->
-          <article class="product-tile">
+          <article class="product-tile col-6 d-lg-none">
+
+            <a href="" class="product-image-container"
+              title="Monochrome Watch">
+              <img src="/img/products/product-02a.png" alt="product-image">
+              <span><i class="far fa-heart"></i></span>
+            </a>
+  
+            <a href=""
+                class="product-title"
+                title="Monochrome Watch"
+            >Monochrome</a>
+  
+            <a href=""
+                class="product-price"
+                title="Monochrome Watch Price"
+            >$425</a>
+          </article>
+          <article class="product-tile d-none d-lg-flex">
 
             <a href="" class="product-image-container"
               title="Monochrome Watch">
@@ -237,7 +288,7 @@
             >$425</a>
           </article>
           <!-- .product-tile  -->
-          <article class="product-tile">
+          <article class="product-tile d-none d-lg-flex">
 
             <a href="" class="product-image-container"
               title="Monochrome Watch">
@@ -261,120 +312,24 @@
       </section>
       <!-- .catalog-preview  -->
 
-      <hr style="width: 300px; margin-top: 26px; color: #CCCCCC;">
-
-      <h1>Spring Collection</h1>
-
-      <div class="catalog-mob">
-        <p><i class="fas fa-angle-left"></i></p>
-
-
-        <article class="product-tile">
-
-          <a href="" class="product-image-container"
-            title="Monochrome Watch">
-            <img src="/img/products/mob-product/3.png" alt="product-image">
-            <span><i class="far fa-heart"></i></span>
-          </a>
-
-          <a href=""
-              class="product-title"
-              title="Monochrome Watch"
-          >Monochrome</a>
-
-          <p href=""
-              class="product-price"
-              title="Monochrome Watch Price"
-          >$425</p>
-        </article>
-        <article class="product-tile">
-
-          <a href="" class="product-image-container"
-            title="Monochrome Watch">
-            <img src="/img/products/mob-product/2.png" alt="product-image">
-            <span><i class="far fa-heart"></i></span>
-          </a>
-
-          <a href=""
-              class="product-title"
-              title="Monochrome Watch"
-          >Monochrome</a>
-
-          <p href=""
-              class="product-price"
-              title="Monochrome Watch Price"
-          >$425</p>
-        </article>
-        <p><i class="fas fa-angle-right"></i></p>
-
-      </div>
-      <!-- /catalog-mob -->
-
-      <hr style="width: 300px; margin-top: 26px; color: #CCCCCC;">
-
-      <h1>Best reviewed</h1>
-      <div class="catalog-mob">
-        <p><i class="fas fa-angle-left"></i></p>
-
-        <article class="product-tile">
-
-          <a href="" class="product-image-container"
-            title="Monochrome Watch">
-            <img src="/img/products/mob-product/3.png" alt="product-image">
-            <span><i class="far fa-heart"></i></span>
-          </a>
-
-          <a href=""
-              class="product-title"
-              title="Monochrome Watch"
-          >Monochrome</a>
-
-          <p
-              class="product-price"
-              title="Monochrome Watch Price"
-          >$425</p>
-        </article>
-        <article class="product-tile">
-
-          <a href="" class="product-image-container"
-            title="Monochrome Watch">
-            <img src="/img/products/mob-product/2.png" alt="product-image">
-            <span><i class="far fa-heart"></i></span>
-          </a>
-
-          <a href=""
-              class="product-title"
-              title="Monochrome Watch"
-          >Monochrome</a>
-
-          <p
-              class="product-price"
-              title="Monochrome Watch Price"
-          >$425</p>
-        </article>
-        <p><i class="fas fa-angle-right"></i></p>
-
-      </div>
-      <!-- /catalog-mob -->
-
 
       <section class="mid-page-promo">
         <div class="promo-image">
-          <img src="/img/banner-secondary (2).png" alt="promotional banner">
+          <img src="/img/banner-secondary (2).png" class="d-lg-none" alt="promotional banner">
        </div>
         <div class="promo-text">
           <h1 class="">Watches for entrepreneurs</h1>
-          <p class="desktop-p">
-            But I must explain to you how all this mistaken idea of denouncing pleasure and praising 
-            pain was born and I will give you a complete account of the system, and expound the actual 
-            teachings of the great explorer of the truth, the master-builder of human happiness. 
-            No one rejects, dislikes, or avoids pleasure itself, because.
+          <p class=" d-none d-lg-flex">
+            But I must explain to you how all this mistaken idea of <br class="d-none d-lg-block"> denouncing pleasure and praising 
+            pain was born and I <br class="d-none d-lg-block"> will give you a complete account of the system, and <br class="d-none d-lg-block"> expound the actual 
+            teachings of the great explorer of <br class="d-none d-lg-block"> the truth, the master-builder of human happiness. 
+            No <br class="d-none d-lg-block"> one rejects, dislikes, or avoids pleasure itself, because.
           </p>
-           <p>
-             But I must explain to you how all this mistaken idea of denouncing pleasure and praising 
-              pain was born and I will give you a complete account of the system, and expound the actual 
-              teachings of the great explorer of the truth, the master-builder of human happiness. 
-              No one rejects, dislikes, or avoids pleasure itself, because.
+           <p class="second-p" >
+            But I must explain to you how all this mistaken idea of <br class="d-none d-lg-block"> denouncing pleasure and praising 
+            pain was born and I <br class="d-none d-lg-block"> will give you a complete account of the system, and <br class="d-none d-lg-block"> expound the actual 
+            teachings of the great explorer of <br class="d-none d-lg-block"> the truth, the master-builder of human happiness. 
+            No <br class="d-none d-lg-block"> one rejects, dislikes, or avoids pleasure itself, because.
             </p>
        </div>
 
@@ -382,106 +337,24 @@
       </section>
       <!-- .mid-page-promo  -->
 
-      <hr style="width: 300px; margin-top: 26px; color: #CCCCCC;">
+      <hr style="width: 300px;
+        margin-top: 26px;
+        color: #CCCCCC;
+        margin-top: 27px;"
+        class=" d-lg-none"
+      >
+      <hr style="width: 1356px;
+        
+        color: #CCCCCC;
+        margin-top: 27px;"
+        class=" d-none d-lg-block"
+      >
 
-      <h1>MEN'S</h1>
-      <div class="catalog-mob">
-        <p></p>
 
-        <article class="product-tile">
-
-          <a href="" class="product-image-container"
-            title="Monochrome Watch">
-            <img src="/img/products/mob-product/3.png" alt="product-image">
-            <span><i class="far fa-heart"></i></span>
-          </a>
-
-          <a href=""
-              class="product-title"
-              title="Monochrome Watch"
-          >Monochrome</a>
-
-          <p
-              class="product-price"
-              title="Monochrome Watch Price"
-          >$425</p>
-        </article>
-        <article class="product-tile">
-
-          <a href="" class="product-image-container"
-            title="Monochrome Watch">
-            <img src="/img/products/mob-product/2.png" alt="product-image">
-            <span><i class="far fa-heart"></i></span>
-          </a>
-
-          <a href=""
-              class="product-title"
-              title="Monochrome Watch"
-          >Monochrome</a>
-
-          <p
-              class="product-price"
-              title="Monochrome Watch Price"
-          >$425</p>
-        </article>
-        <p></p>
-
-      </div>
-      <!-- /catalog-mob -->
-      <hr style="width: 300px; margin-top: 26px; color: #CCCCCC;">
-
-      <h1>WOMEN'S</h1>
-      <div class="catalog-mob">
-        <p></p>
-
-        <article class="product-tile">
-
-          <a href="" class="product-image-container"
-            title="Monochrome Watch">
-            <img src="/img/products/mob-product/3.png" alt="product-image">
-            <span><i class="far fa-heart"></i></span>
-          </a>
-
-          <a href=""
-              class="product-title"
-              title="Monochrome Watch"
-          >Monochrome</a>
-
-          <p
-              class="product-price"
-              title="Monochrome Watch Price"
-          >$425</p>
-        </article>
-        <article class="product-tile">
-
-          <a href="" class="product-image-container"
-            title="Monochrome Watch">
-            <img src="/img/products/mob-product/2.png" alt="product-image">
-            <span><i class="far fa-heart"></i></span>
-          </a>
-
-          <a href=""
-              class="product-title"
-              title="Monochrome Watch"
-          >Monochrome</a>
-
-          <p
-              class="product-price"
-              title="Monochrome Watch Price"
-          >$425</p>
-        </article>
-        <p></p>
-
-      </div>
-      <!-- /catalog-mob -->
-
-        <a href="" class="view-action">view all</a>
-
-        <br><br><br><br><br>
-
+      <h1 class="capitalized-title">Men's</h1>
       <section class="catalog-preview">
-        <h1 class="capitalized-title">Men's</h1>
-        <article class="product-tile">
+        
+        <article class="product-tile d-none d-lg-flex">
 
           <a href="" class="product-image-container"
             title="Monochrome Watch">
@@ -501,7 +374,7 @@
         </article>
         <!-- .product-tile  -->
 
-        <article class="product-tile">
+        <article class="product-tile d-none d-lg-flex">
 
           <a href="" class="product-image-container"
             title="Monochrome Watch">
@@ -521,7 +394,7 @@
         </article>
         <!-- .product-tile  -->
 
-        <article class="product-tile">
+        <article class="product-tile d-none d-lg-flex">
 
           <a href="" class="product-image-container"
             title="Monochrome Watch">
@@ -541,7 +414,7 @@
         </article>
         <!-- .product-tile  -->
 
-        <article class="product-tile">
+        <article class="product-tile col-sm-6">
 
           <a href="" class="product-image-container"
             title="Monochrome Watch">
@@ -560,55 +433,7 @@
           >$425</a>
         </article>
         <!-- .product-tile  -->
-
-        <button class="view-all">view all</button>
-        
-      </section>
-      <!-- .catalog-preview  -->
-
-      <section class="catalog-preview">
-        <h1 class="capitalized-title">Women's</h1>
-        <article class="product-tile">
-
-          <a href="" class="product-image-container"
-            title="Monochrome Watch">
-            <img src="/img/products/product-04a.png" alt="product-image">
-            <span><i class="far fa-heart"></i></span>
-          </a>
-
-          <a href=""
-              class="product-title"
-              title="Monochrome Watch"
-          >Monochrome</a>
-
-          <a href=""
-              class="product-price"
-              title="Monochrome Watch Price"
-          >$425</a>
-        </article>
-        <!-- .product-tile  -->
-
-        <article class="product-tile">
-
-          <a href="" class="product-image-container"
-            title="Monochrome Watch">
-            <img src="/img/products/product-01a.png" alt="product-image">
-            <span><i class="far fa-heart"></i></span>
-          </a>
-
-          <a href=""
-              class="product-title"
-              title="Monochrome Watch"
-          >Monochrome</a>
-
-          <a href=""
-              class="product-price"
-              title="Monochrome Watch Price"
-          >$425</a>
-        </article>
-        <!-- .product-tile  -->
-
-        <article class="product-tile">
+        <article class="product-tile   col-sm-6 d-md-none ">
 
           <a href="" class="product-image-container"
             title="Monochrome Watch">
@@ -628,7 +453,88 @@
         </article>
         <!-- .product-tile  -->
 
-        <article class="product-tile">
+        
+        
+      </section>
+
+      <button class="view-all">view all</button>
+      <!-- .catalog-preview  -->
+      <hr style="width: 300px;
+        margin-top: 26px;
+        color: #CCCCCC;
+        margin-top: 27px;"
+        class=" d-lg-none"
+      >
+      <hr style="width: 1356px;
+        margin-top: 26px;
+        color: #CCCCCC;
+        margin-top: 101px;"
+        class=" d-none d-lg-block"
+      >
+      <h1 class="capitalized-title">Women's</h1>
+      <section class="catalog-preview">
+        
+        <article class="product-tile d-none d-lg-flex">
+
+          <a href="" class="product-image-container"
+            title="Monochrome Watch">
+            <img src="/img/products/product-04a.png" alt="product-image">
+            <span><i class="far fa-heart"></i></span>
+          </a>
+
+          <a href=""
+              class="product-title"
+              title="Monochrome Watch"
+          >Monochrome</a>
+
+          <a href=""
+              class="product-price"
+              title="Monochrome Watch Price"
+          >$425</a>
+        </article>
+        <!-- .product-tile  -->
+
+        <article class="product-tile col-sm-6  ">
+
+          <a href="" class="product-image-container"
+            title="Monochrome Watch">
+            <img src="/img/products/product-01a.png" alt="product-image">
+            <span><i class="far fa-heart"></i></span>
+          </a>
+
+          <a href=""
+              class="product-title"
+              title="Monochrome Watch"
+          >Monochrome</a>
+
+          <a href=""
+              class="product-price"
+              title="Monochrome Watch Price"
+          >$425</a>
+        </article>
+        <!-- .product-tile  -->
+
+        <article class="product-tile  product-tile col-sm-6  ">
+
+          <a href="" class="product-image-container"
+            title="Monochrome Watch">
+            <img src="/img/products/product-02a.png" alt="product-image">
+            <span><i class="far fa-heart"></i></span>
+          </a>
+
+          <a href=""
+              class="product-title"
+              title="Monochrome Watch"
+          >Monochrome</a>
+
+          <a href=""
+              class="product-price"
+              title="Monochrome Watch Price"
+          >$425</a>
+        </article>
+        <!-- .product-tile  -->
+
+        <article class="product-tile d-none d-lg-flex">
 
           <a href="" class="product-image-container"
             title="Monochrome Watch">
@@ -648,10 +554,12 @@
         </article>
         <!-- .product-tile  -->
         
-        <button class="view-all">view all</button>
+        
         
       </section>
       <!-- .catalog-preview  -->
+
+      <button class="view-all ">view all</button>
      
       
     
@@ -667,30 +575,31 @@
     <div class="footer-top">
       <div class="social">
 
-        <h1>Let's connect</h1>
+        <h1 class="d-lg-none">Let's connect</h1>
 
-        <p class="first-ofer">Be the first to receive exclusives offers</p>
+        <p class="first-ofer d-lg-none">Be the first to receive exclusives offers</p>
+        <p class="d-none d-lg-block sign-newsletter">SIGN UP FOR OUR NEWSLETTER</p>
         
-        <p><input type="text" placeholder="Email" class="email-input"></p>
-        <p><button type="submit">SUMBIT</button></p>
+        <p class="newsletter-input"><input type="text" placeholder="Email" class="email-input"></p>
+        <button type="submit">SUMBIT</button>
 
-        <p class="privacy-policy">I agree with <a href=""> Privacy Policy </a>
+        <p class="privacy-policy d-lg-none">I agree with <a href=""> Privacy Policy </a>
           and i want to receive emails 
           from Monochrome
         </p>
 
-        <h1>We are highly likeable</h1>
+        <h1 class="d-lg-none">We are highly likeable</h1>
 
-        <p><a href="" class="social-network"><i class="fab fa-youtube"></i><i class="fab fa-twitter"></i>
-            <i class="fab fa-facebook-f"></i> <i class="fab fa-instagram"></i></a>
-         </p>
+        <p class="social-media"><a href="" class="social-network"><i class="fab fa-youtube"></i><i class="fab fa-twitter"></i>
+          <i class="fab fa-facebook-f"></i> <i class="fab fa-instagram"></i></a>
+        </p>
          
 
 
       </div>
       <!-- .social -->
 
-      <div class="footer-call">
+      <div class="footer-call d-lg-none">
         
         <p><i class="fas fa-phone-alt"></i></p>
         <p> <a href="tel:"> call us</a></p>
@@ -710,11 +619,11 @@
 
     
     <div class="footer-bottom">
-      <h1>How can we help?</h1>
+      <h1 class="d-lg-none">How can we help?</h1>
       <div class="bottom-container">
         <div class="footer-contact">
          
-          <ul>
+          <ul class=" d-none d-lg-block">
             <li><a href="">CALL US </a></li>
             <li><a href="tel:+44 (0)10 2345 6789"> +44 (0)10 2345 6789</a></li>
             <li><a href="mailto:email@email.com">EMAIL CUSTOMER CARE</a></li>
@@ -723,7 +632,7 @@
         </div>
         <!-- .footer-contact  -->
  
-        <div class="footer-customer-info">
+        <div class="footer-customer-info ">
           <ul>
             <li><a href="" title="Style & Fit Advice">style & fit </a></li>
             <li><a href="" title="Faqs">faqs</a></li>
@@ -745,7 +654,7 @@
         
       </div>
       <!-- .bottom-container -->
-        <div class="privacy-terms">
+        <div class="privacy-terms d-lg-none">
           <ul>
             <li><a href="">terms & conditions</a></li>
             <li><a href="">privacy & cookies</a></li>
@@ -754,7 +663,7 @@
       
 
     </div>
-    <!-- mob footer-bottom -->
+    <!--  footer-bottom -->
     
 
   </footer>

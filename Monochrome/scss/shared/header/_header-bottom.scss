@@ -1,84 +1,126 @@
 .header-bottom {
-    
-    
+    width: 100%;
+    margin: 0 auto;
     .nav-main {
+        width: 100%;
+        height: 50px;
+        background-color:#2B2B2B;
         display: flex;
-        justify-content: space-between;
-        background: #2B2B2B 0% 0% no-repeat padding-box;
 
         ul {
             display: none;
+            @include media-breakpoint-up('md') {
+                display: flex;
+                width: 100%;
+                
+                align-items: center;
+                li:nth-child(1) { 
+                    margin-left: 282px;
+                }
+                li:nth-child(2) {
+                    margin-left: 152px;
+                }
+                li:nth-child(3) {
+                    margin-left: 149px;
+                }
+                li:nth-child(4) {
+                    margin-left: 149px;
+                }
+                li:nth-child(5) {
+                    margin-left: 153px;
+                }
+                li:nth-child(6) {
+                    margin-left: 162px;
+                }
+                a {
+                    font-size: 19px;
+                    color: #E8E8E8;
+                    font-family: 'Playfair Display';
+                    text-transform: uppercase;
+                }
+                
+            }
+        
         }
 
         p {
-            font-size: 36px;
-            color: #ffffff;
             margin-left: 34px;
             margin-top: 10px;
             margin-bottom: 10px;
-            
+            .fa-bars {
+                padding: 0;
+                font-size: 33px;
+                color: #FFFFFF;
 
-
-        }
-        form {
-            margin-right: 34px;
-        }
-        
-        .fa-search {
-            position: relative;
-            top: -11px;
-            right: 10px;
-            color: white;
-        }
-        input {
-            position: relative;
-            right: -21px;
-            margin-top: 33px;
-            bottom: 10px;
-            color: #FFFFFF;
-            background-color: #2B2B2B;
-            width: 227px;
-            height: 30px;
-            border: 0.20000000298023224px solid #FFFFFF;
-
-            &::placeholder {
-                font-size: 10px;
-                font-style: italic;
-                font-family: 'Roboto';
-                position: relative;
-                top: -2px;
-                left: 5px;
-                color: #fff;
-                opacity: 0.58;
+            }
+            @include media-breakpoint-up('md') {
+                display: none;
             }
         }
 
-        
+        .mobile-form {
+            margin-left: 52px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            margin-right: 35px;
+
+            
+
+            .mobile-search {
+                
+                background-color: transparent;
+                border: 0.2px  solid #FFFFFF ;
+                width: 227px;
+                height: 30px;
+                color: #FFFFFF;
+                opacity: 0.58;
+                padding-right: 0;
+
+                &::placeholder {
+                    padding-left: 4px;
+                    font-size: 10px;
+                    font-family: 'Roboto';
+                    font-style: italic;
+                    
+                }
+
+                @include media-breakpoint-up('md') {
+                    display: none;
+                }
+
+            }
+            .fa-search {
+                position: absolute;
+                top: 101px;
+                right: 45px;
+            }
+
+            @include media-breakpoint-up('md') {
+                display: none;
+            }
+           
+        }  
     }
 
-    .header-background {
+    .mobheader-background {
+
         height: 177px;
-        width: 100%;
-        background-image: url(/img/mob-background.png)  ;
-        background-repeat: no-repeat;
+        background-image: url(/img/banner-mobile.png);
         background-size: cover;
         text-align: right;
-        margin: 0;
 
         button {
-            position: relative;
-            top: 124px;
-            right: 35px;
+            margin-top: 124px ;
+            margin-right: 35px;
             width: 69px;
             height: 21px;
             font-size: 10px;
             font-family: 'Roboto';
-            font-weight: normal;
             
+
+        }
+        @include media-breakpoint-up('md') {
+            display: none;
         }
     }
-    
-    
-    
-   
 }

@@ -41,6 +41,7 @@
     font-size: 24px;
     color: $gray-secondary;
     font-weight: 500;
+    display: block;
 
     & > span:first-child {
       color: $black;
@@ -54,7 +55,6 @@
   .product-subtitle {
     font-size: 18px;
     color: $gray-secondary;
-    font-weight: 500;
   }
 
   .product-pricing {

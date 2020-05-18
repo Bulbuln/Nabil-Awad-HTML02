@@ -3,75 +3,122 @@
     width: 330px;
     margin: 0 auto;
     text-align: center;
+    @include media-breakpoint-up('md') {
+        width:1356px;
+    }
 
     h1 {
-        font-family: 'Playfair Display' ;
-        font-weight: bold;
+        font-family: 'Playfair Display';
         font-size: 18px;
-        color: #2B2B2B;
         margin-top: 8px;
-        text-align: center;
+        @include media-breakpoint-up('md') {
+            font-size:  35px;
+            margin-top: 10px;
+            color: #2B2B2B;
+            font-weight: bold;
         
+        }
     }
 
     .catalog-preview {
-        display: none;
-    }
-    
-    .catalog-mob {
-        margin: 0 auto;
-        width: 330px;
-        margin-top: 10px;
         display: flex;
-        justify-content: space-between;
+        margin-left: 5px;
+        @include media-breakpoint-up('md') {
+            margin-top: 23px;
 
-        .fa-angle-left {
-            position: relative;
-            top: 60px;
-            left: -10px;
         }
-
-        .fa-angle-right {
-            position: relative;
-            top: 60px;
-            right: -10px;
-        }
-        
-        
-        
 
         .product-tile {
-            width: 148px;
-            display: inline-block;
-            flex-direction: column;
             position: relative;
-            text-align: center;
-            
-            
-            
-            a {
+            display: flex;
+            flex-direction: column;
+            margin-left: 10px;
+            .product-image-container{
+                
+                max-width:148px ;
+                height: 148px;
+                overflow: hidden;
+                display: flex;
+                justify-content: center;
+                align-items: center;
                 text-decoration: none;
-                color:  #2B2B2B;
-                font-family: 'Playfair Display' ;
-                font-weight: bold;
-                font-size: 16px;
-            }
-
-            span {
-                position: absolute;
-                top: 7px;
-                right: 15px;
-                color: #000;
-                font-size: 17px;
-            }
-
-            p {
-                letter-spacing: 0.54px;
                 color: #2B2B2B;
-                font-family: 'Playfair Display' ;
-                font-weight: normal;
+                @include media-breakpoint-up('md') {
+                    max-width: 321px;
+                    height: 292px;
+                }
+                
+                span {
+                    position: absolute;
+                    top: 7px;
+                    right: 11px;
+                    @include media-breakpoint-up('md') {
+                        top: 17px;
+                        right: 21px;
+                        font-size: 23px;
+                    }
+                }
+                img {
+                    width: 148px;
+                    height: 148px;
+                    @include media-breakpoint-up('md') {
+                        width: 321px;
+                        height: 292px;
+                    }
+                }
+                
+
             }
+            .product-title {
+                font-family: 'Playfair Display';
+                font-size: 16px;
+                color: #2B2B2B;
+                margin-top: 10px;
+                @include media-breakpoint-up('md') {
+                    font-size: 22px;
+                    color: #2B2B2B;
+                    font-weight: bold;
+                    margin-top: 21px;
+                }
+            }
+            .product-price {
+                font-family: 'Playfair Display';
+                font-size: 15px;
+                color: #2B2B2B;
+                margin-top: 2px;
+                @include media-breakpoint-up('md') {
+                    font-size: 22px;
+                    color: #2B2B2B;
+                    font-weight: normal;
+                    margin-top: 10px;
+                }
+            }
+
+            
         }
         
     }
+
+    button {
+        width: 83px;
+        height: 32px;
+        background-color: transparent;
+        border: 1px solid #2B2B2B;
+        margin-top: 35px;
+        font-family: 'Roboto';
+        
+
+        @include media-breakpoint-up('md') {
+            width: 113px;
+            height: 49px;
+            font-size: 21px;
+            font-family: 'Roboto';
+        }
+        
+    }
+
+    
+
+    
+
 }
