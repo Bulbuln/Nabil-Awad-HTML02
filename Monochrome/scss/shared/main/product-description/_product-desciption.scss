@@ -1,0 +1,197 @@
+@import './header-pro/header-pro';
+
+.product-container {
+    display: flex;
+
+    .product-image {
+        margin-top: 31px;
+
+        ul {
+            display: flex;
+            margin: 24px auto;
+            padding-left: 33px;
+            li {
+                margin-left: 20px;
+            }
+        }
+
+        p {
+
+
+            a {
+                color: #2B2B2B;
+                font-family: 'Playfair Display';
+                font-size: 22px;
+                text-transform: lowercase;
+                letter-spacing: 0.11px;
+                text-decoration: underline;
+
+            }
+        }
+    }
+
+    
+
+    .product-description {
+        margin-top: 35px;
+        margin-left:140px ;
+        text-align: left;
+
+        h2 { 
+            font-family: 'Playfair Display';
+            font-size: 25px;
+            font-weight: bold;
+            color: #2B2B2B;
+        }
+
+        .product-details {
+
+            p {
+                font-family: 'Playfair Display';
+                color: #2B2B2B;
+                font-size: 18px;
+                font-weight: bold;
+                border-top: 1px solid #CCCCCC;
+                text-transform: lowercase;
+                padding-top: 15px;
+
+                &:nth-child(5) {
+                    border-bottom: 1px solid #CCCCCC; 
+                }
+
+            
+            }
+            .about-product {
+                font-family: 'Roboto';
+                color: #2B2B2B;
+                font-size: 18px;
+                letter-spacing: 0.09px;
+                font-weight: normal;
+                border: none;
+                padding-top: 0;
+            }
+        }
+
+        .product-add {
+            display: flex;
+            
+            .selling-part {
+                display: flex;
+                margin-top: 0;
+
+                p {
+                    background-color: transparent;
+                    border: 0.5px solid #707070;
+                    width: 44px;
+                    height: 44px;
+                    text-align: center;
+                    font-size: 27px;
+                    position: relative;
+                    top: 35px;
+                }
+                button {
+                    font-size: 16px;
+                    width: 162px;
+                    height: 44px;
+                    text-align: center;
+                    letter-spacing: 0.64px;
+                    color: #FFFFFF;
+                    text-transform: uppercase;
+                    background-color: #2B2B2B;
+                    padding-top: 0;
+                }
+            }
+
+            .wishlist-part {
+                display: flex;
+                margin-top: 0;
+                margin-left: 24px;
+
+                p {
+                    background-color: #E8E8E8;
+                    width: 44px;
+                    height: 44px;
+                    text-align: center;
+                    font-size: 27px;
+                    position: relative;
+                    top: 35px;
+                }
+                button {
+                    font-size: 16px;
+                    width: 162px;
+                    height: 44px;
+                    text-align: center;
+                    letter-spacing: 0.64px;
+                    color: #313131;
+                    text-transform: uppercase;
+                    background-color: transparent;
+                    padding-top: 0;
+                    border: 1px solid #E8E8E8;
+                }
+            }
+        }
+
+        .product-shiping {
+            margin-top: 60px;
+            text-align: center;
+            border-bottom: 1px solid #CCCCCC;
+            padding-bottom: 21px;
+            a {
+                text-decoration: underline;
+                color: #2B2B2B;
+                font-size: 12px;
+                font-family: 'Playfair Display';
+                letter-spacing: 0.06px;
+                text-transform: uppercase;
+                
+            }
+        }
+        .contact-part {
+            .social-part {
+                text-align: center;
+                ul {
+                    display: flex;
+                    justify-content: center;
+                    
+                    li {
+                        margin-left: 30px;
+                        a {
+                            font-size: 18px;
+                            color: #2B2B2B;
+                        }
+                    }
+                }
+            }
+            .info-and-contact  {
+                text-align: center;
+                margin-top: 15px;
+                ul {
+                    display: flex;
+                    justify-content: center;
+                    border-top: 1px solid #E8E8E8; 
+                    li {
+                        width: 156px;
+                        border-right: 1px solid #E8E8E8;
+                        padding-top: 18px;
+                        
+                        &:nth-child(3) {
+                            border: none;
+                        }
+                        
+                        a {
+                            
+                            color: #2B2B2B;
+                            font-size: 18px;
+                            font-family: 'Roboto';
+                            font-weight: lighter;
+                            text-transform: uppercase;
+                        }
+                    }
+                }
+            }
+        }    
+
+    }   
+
+    
+}
